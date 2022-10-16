@@ -1,63 +1,14 @@
-   0 mkdir -p /home/animals/dogs/cats/fish
-   1 cd /home/
-   2 tree
-   3 cd animals
-   4 cd dogs
-   5 touch dogs/Pluto
-   6 touch Pluto.txt
-   7 cd cats
-   8 touch Garfield.txt
-   9 cd fish
-  10 touch Nemo.txt
-  11 c ..
-  12 cd ..
-  13 tree
-  14 mkdir humans 
-  15 cd humans
-  16 touch Adam
-  17 mkdir tmp
-  18 cd tmp
-  19 touch evA.txt
-  20 cd ..
-  21 tree
-  22 rmadir Adam
-  23 tree
-  24 cd humans
-  25 rmkdir Adam
-  26 rm -rf Adam
-  27 tree
-  28 touch Adam.txt
-  29 tree
-  30 cd ..
-  31 cd humans
-  32 mkdir opt
-  33 cd opt 
-  34 touch eve.txt
-  35 cd ..
-  36 tree
-  37 cd humans
-  38 rm -rf opt
-  39 tree
-  40 cd ..
-  41 mkdir opt
-  42 cd opt
-  43 tuoch eve.txt
-  44 cd ..
-  45 tree
-  46 cd opt
-  47 touch eve.txt
-  48 cd ..
-  49 tree
-  50 ls
-  51 cd
-  52  cd ..
-  53 cd /home/
-  54 rm -rf opt 
-  55 tree
-  56 cd ..
-  57 cd
-  58 mv /home/humans/tmp/evA.txt/opt/eve.txt
-  59 mv /home/humans/tmp/evA.txt /opt/eve.txt
-  60 tree /home/
-  61 ls /opt
-  62 history > history.txt
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1.txt
+   2 echo "Start"
+   3 echo "Start" >> /1.txt
+   4 date >> /1.txt
+   5 cat /1.txt
+   6 mkdir /opt/task
+   7 touch /opt/task/start.txt
+   8 cp /home/user/start/1.txt /opt/task/1.txt
+   9 tree /opt
+  10 ls -a / |tail -4 >> /opt/task/start.txt
+  11 cat /start.txt
+  12 cat /opt/task/start.txt
+  13 history > /tmp/history.txt
