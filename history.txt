@@ -1,14 +1,12 @@
-   0 mkdir -p /home/user/start
-   1 touch /home/user/start/1.txt
-   2 echo "Start"
-   3 echo "Start" >> /1.txt
-   4 date >> /1.txt
-   5 cat /1.txt
-   6 mkdir /opt/task
-   7 touch /opt/task/start.txt
-   8 cp /home/user/start/1.txt /opt/task/1.txt
-   9 tree /opt
-  10 ls -a / |tail -4 >> /opt/task/start.txt
-  11 cat /start.txt
-  12 cat /opt/task/start.txt
-  13 history > /tmp/history.txt
+   0 vi /tmp/file.txt
+   1 df -h | head -3
+   2 df -h | head -3 >> /tmp/file.txt
+   3 chmod g+w /tmp/file.txt 
+   4 chmod u-r /tmp/file.txt
+   5 chmod o+x /tmp/file.txt
+   6 ls -l /tmp
+   7 export NAME=larysa
+   8 export VAR=Duseldorf
+   9 echo $NAME $VAR >> /tmp/file.txt
+  10 nano /tmp/file.txt
+  11 history > /tmp/history.txt
